@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  GithubRepo
+
+  Created by lduraes on 26/07/2020.
+  
+*/
+
+"alert_title_error" = "Error";
+"ok" = "OK";
+
