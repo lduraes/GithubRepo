@@ -9,7 +9,7 @@
 import Foundation
 @testable import GithubRepo
 
-class MockRepository: Decodable {
+final class MockRepository: Decodable {
     // MARK: - Public methods
     func getMock() throws -> [Repository] {
         guard let filePath = Bundle(for: type(of: self)).path(forResource: "mock-repositories", ofType: "json") else { fatalError("mock-repositories.json not found") }

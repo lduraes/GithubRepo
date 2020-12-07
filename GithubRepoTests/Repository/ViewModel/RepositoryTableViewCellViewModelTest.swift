@@ -11,13 +11,15 @@ import XCTest
 
 class RepositoryTableViewCellViewModelTest: XCTestCase {
     // MARK: - Properties
-    private var mockRepository = MockRepository()
+    private var mockRepository: MockRepository!
 
     override func setUp() {
         super.setUp()
+        mockRepository = MockRepository()
     }
     
     override func tearDown() {
+        mockRepository = nil
         super.tearDown()
     }
     

@@ -8,7 +8,7 @@
 
 @testable import GithubRepo
 
-class MockRepositoryProvider: RepositoryProviderDelegate {
+final class MockRepositoryProvider: RepositoryProviderDelegate {
     // MARK: - Properties
     private let mockRepository = MockRepository()
     var simulateError = false
